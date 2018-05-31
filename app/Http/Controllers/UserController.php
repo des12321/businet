@@ -10,14 +10,12 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Facades\Cookie;
-use App\User\Collections\UserCollection;
+
 
 class UserController extends BaseController
 {
-    private $userCollection;
-
-    public function __construct(UserCollection $userCollection){
-        $this->userCollection = $userCollection;
+    public function __construct(){
+        
     }
 
     public function showLogin(Request $request)
