@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel UPDATE
+                    Laravel UPDATE new
                 </div>
 
                 <div class="links">
