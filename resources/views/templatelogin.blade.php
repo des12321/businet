@@ -12,7 +12,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             window.scrollTo(0, 1);
         } </script>
     <!-- bootstrap-css -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- //bootstrap-css -->
     <!-- Custom CSS -->
     <link href="{{ asset('css/newstyle.css') }}" rel="stylesheet" type="text/css"/>
