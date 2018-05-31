@@ -687,6 +687,26 @@ ul.top-menu>li>a:hover,ul.top-menu>li>a:focus {
     font-size: 0.8em;
     line-height: 1.8em;
 }
+
+.market-update-block-inicio {
+    padding: 2em 2em;
+    background: #999;
+}
+.market-update-block-inicio h3 {
+    color: #fff;
+    font-size: 2em;
+}
+.market-update-block-inicio h4 {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0.3em 0em;
+}
+.market-update-block-inicio p {
+    color: #fff;
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+
 .market-update-block.clr-block-1 {
     width: 100%;
     background-image: url('../images/base1fondo.png');
@@ -2586,6 +2606,9 @@ div#graph10,div#graph11 {
     height: 150px;
 }
 .market-update-block {
+    padding: 0.2em 1em;
+}
+.market-update-block-inicio {
     padding: 1em 1em;
 }
 .alert {

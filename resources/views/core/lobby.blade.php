@@ -10,51 +10,45 @@
                 <div id="routeFillTopBanner" data-route="{{ route('user.fillTopBanner') }}"></div>
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
-                        <div class="panel-header market-update-block ">
+                        <div class="panel-header market-update-block-inicio">
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="row">
-                                        <div class="col-md-8">
-                                                <span style="font-size:50px" class="font-color-header text-center"><i
-                                                            class="fa fa-star"></i>  0/3
-                                               </span>
-                                        </div>
                                         <div class="col-md-4">
-                                            <div class="row">
-                                                <p class="center-block">ADVANCED</p>
+                                            <div class="col-md-12">
+                                                <p class="text-center">ADVANCED</p>
                                             </div>
-                                            <div class="row">
-                                                <p class="center-block advanceValor" ></p>
+                                            <div class="col-md-12">
+                                                <p class="text-center advanceValor" ></p>
                                             </div>
-
                                         </div>
-                                    </div>
-                                </div>
-                                <div class=" col-md-4">
-                                    <div class="center-block">
-                                        <img class="center-block" src="images/basicM.png" width="80px">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="col-md-3">
-                                        <h3 style="font-size:50px;">
+                                        <h3 class="text-center" style="font-size:50px;">
                                             <i class="fa fa-dollar"></i>
                                         </h3>
                                     </div>
                                     <div class="col-md-9">
-                                        <p style="font-size:12px;" class="">Dolares</p>
-                                        <h4 class="montoDolares"></h4>
+                                        <p style="font-size:12px;" class="text-center">Dolares</p>
+                                        <h4 class="text-center montoDolares"></h4>
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <div class="col-md-3">
-                                        <h3 style="font-size:50px;">
+                                        <h3 class="text-center" style="font-size:50px;">
                                             <i class="fa fa-btc"></i>
                                         </h3>
                                     </div>
                                     <div class="col-md-9">
-                                        <p class="" style="font-size:10px;">BITCOIN</p>
-                                        <h4 class="montoBitCoin"></h4>
+                                        <p class="text-center" style="font-size:10px;">BITCOIN</p>
+                                        <h4 class="text-center montoBitCoin"></h4>
+                                    </div>
+                                </div>
+                                <div class=" col-md-3">
+                                    <div class="center-block">
+                                        <img class="center-block" src="images/basicM.png" width="60px">
                                     </div>
                                 </div>
                             </div>
@@ -74,8 +68,8 @@
                                     <div class="col-md-2 center-block">
                                         <span class="fa fa-users text-center" style=""></span>
                                     </div>
-                                    <div class="center-block col-md-10 ">
-                                        <span class="text-center" style="font-size:10px;">ADVANCED BITCOINER</span>
+                                    <div class="center-block col-md-10 cuadro-title" >
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -83,23 +77,21 @@
                         <div class="market-update-block clr-block-5">
                             <div class="row ">
                                 <div class="col-md-4">
-                                    <h3 class="text-center">0</h3>
+                                    <h3 class="text-center" style="font-size:25px" id="cuadro1-item1"></h3>
                                     <p class="text-center font-panel1">Referidos</p>
                                 </div>
                                 <div class="col-md-4">
                                     <img class="center-block" src="images/rango1.png" width="50px">
                                 </div>
                                 <div class="col-md-4">
-                                    <h3 class="text-center">0/1</h3>
+                                    <h3 class="text-center" id="cuadro1-item2"></h3>
                                     <p class="text-center font-panel1">progreso</p>
                                 </div>
                             </div>
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="progress">
-                                        <div data-percentage="0%" style="width: 60%;"
-                                             class="progress-bar progress-bar-info" role="progressbar"
-                                             aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress" id="cuadro1-item3">
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -119,9 +111,8 @@
                                         <div class="col-md-2">
                                             <span class="fa fa-users text-center" style=""></span>
                                         </div>
-                                        <div class="col-md-10">
-                                                <span class="text-center "
-                                                      style="font-size:10px;">ADVANCED BITCOINER</span>
+                                        <div class="col-md-10  cuadro-title">
+                                               
                                         </div>
                                     </div>
                                 </div>
@@ -129,23 +120,21 @@
                             <div class="market-update-block clr-block-5">
                                 <div class="row ">
                                     <div class="col-md-4">
-                                        <h3 class="text-center">0</h3>
+                                        <h3 class="text-center" style="font-size:25px" id="cuadro2-item1"></h3>
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
                                     <div class="col-md-4">
                                         <img class="center-block" src="images/rango2.png" width="50px">
                                     </div>
                                     <div class="col-md-4">
-                                        <h3 class="text-center">0/1</h3>
+                                        <h3 class="text-center" id="cuadro2-item2"></h3>
                                         <p class="text-center font-panel1">progreso</p>
                                     </div>
                                 </div>
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="progress">
-                                            <div data-percentage="0%" style="width: 50%;"
-                                                 class="progress-bar progress-bar-success" role="progressbar"
-                                                 aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress" id="cuadro2-item3">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -167,9 +156,8 @@
                                         <div class="col-md-2">
                                             <span class="fa fa-users text-center" style=""></span>
                                         </div>
-                                        <div class="col-md-10">
-                                                <span class="text-center"
-                                                      style="font-size:10px;">ADVANCED BITCOINER</span>
+                                        <div class="col-md-10 cuadro-title">
+                                              
                                         </div>
                                     </div>
                                 </div>
@@ -177,23 +165,21 @@
                             <div class="market-update-block clr-block-5">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <h3 class="text-center">0</h3>
+                                        <h3 class="text-center" style="font-size:25px" id="cuadro3-item1"></h3>
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
                                     <div class="col-md-4 ">
                                         <img class="center-block" src="images/rango2.png" width="50px">
                                     </div>
                                     <div class="col-md-4">
-                                        <h3 class="text-center">0/1</h3>
+                                        <h3 class="text-center" id="cuadro3-item2"></h3>
                                         <p class="text-center font-panel1">progreso</p>
                                     </div>
                                 </div>
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="progress">
-                                            <div data-percentage="0%" style="width: 40%;"
-                                                 class="progress-bar progress-bar-warning" role="progressbar"
-                                                 aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress" id="cuadro3-item3">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -216,9 +202,8 @@
                                         <div class="col-md-2">
                                             <span class="fa fa-users text-center" style=""></span>
                                         </div>
-                                        <div class="col-md-10">
-                                                <span class="text-center"
-                                                      style="font-size:10px;">ADVANCED BITCOINER</span>
+                                        <div class="col-md-10 cuadro-title-final">
+                                                
                                         </div>
                                     </div>
                                 </div>
@@ -454,9 +439,24 @@
             $('.advanceValor').append(response.data.value)
             $('.montoDolares').append(response.data.biz_saldo_usd)
             $('.montoBitCoin').append(response.data.biz_saldo_btc)
+            $('#cuadro1-item1').append(response.data.biz_soc_der)
+            $('#cuadro1-item2').append('<div style="font-size:25px">'+ response.data.biz_por_der +'%</div>')
+            $('#cuadro1-item3').append('<div data-percentage="'+ response.data.biz_por_der +'%" style="width: '+ response.data.biz_por_der +'%;" class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>')
+            
+            $('.cuadro-title').append('<span class="text-center" style="font-size:15px;">'+ response.data.biz_rango +'</span>')
+
+            $('.cuadro-title-final').append('<span class="text-center" style="font-size:15px;">'+ response.data.biz_rangoprox +'</span>')
+
+            $('#cuadro2-item1').append(response.data.biz_soc_cen)
+            $('#cuadro2-item2').append('<div style="font-size:25px">'+ response.data.biz_por_cen +'%</div>')
+            $('#cuadro2-item3').append('<div data-percentage="'+ response.data.biz_por_cen +'%" style="width: '+ response.data.biz_por_cen +'%;" class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>')
+
+            $('#cuadro3-item1').append(response.data.biz_soc_izq)
+            $('#cuadro3-item2').append('<div style="font-size:25px">'+ response.data.biz_por_izq +'%</div>')
+            $('#cuadro3-item3').append('<div data-percentage="'+ response.data.biz_por_izq +'%" style="width: '+ response.data.biz_por_izq +'%;" class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>')
         }).fail(function () {
-            var holo = 2234455;
-            console.log(holo)
+        
         });
+         
     </script>
 @endsection

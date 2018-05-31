@@ -18,24 +18,24 @@
             <!-- inbox dropdown start-->
             <li id="header_inbox_bar" class="dropdown">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="col-md-3">
-                            <h3 class="font-color-header" style="font-size:25px;">
+                 <div class="col-md-1">
+                            <h3 class="text-center font-color-header" style="font-size:25px;">
                                 <i class="fa fa-btc"></i>
                             </h3>
                         </div>
-                        <div class="col-md-9">
+                    <div class="col-md-3">
+                       
+                
                             <p class="font-color-header" style="font-size:10px;">TRIMESTRE</p>
                             <h4 class="font-color-header">0.00000580</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
+                                        </div>
+                    <div class="col-md-3">
 
                         <p class="font-color-header" style="font-size:10px;">ULTIMO MES</p>
                         <h4 class="font-color-header">0.00000580</h4>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p class="font-color-header" style="font-size:10px;">ESTA SEMANA</p>
                         <h4 class="font-color-header">0.00000580</h4>
                     </div>
