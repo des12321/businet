@@ -11,6 +11,49 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
+});*/
+
+Route::get('registro', [
+    'as' => 'user.register',
+    'uses' => 'UserController@showRegistration'
+]);
+
+Route::get('', [
+    'as' => 'user.login',
+    'uses' => 'UserController@showLogin'
+]);
+
+Route::get('login', [
+    'as' => 'user.login.login',
+    'uses' => 'UserController@showLogin'
+]);
+
+Route::group(['prefix' => 'user'], function () {
+	Route::get('fillTopBanner', [
+    'as' => 'user.fillTopBanner',
+    'uses' => 'UserController@fillTopBanner'
+	]);
 });
+
+Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
+    Route::get('', [
+        'as' => 'core.dashboard',
+        'uses' => 'CoreController@showDashboard'
+    ]);
+    Route::get('/dashboard', [
+        'as' => 'core.dashboard.inicio',
+        'uses' => 'CoreController@showDashboard'
+    ]);
+});
+
+Route::post('loginpost', [
+    'as' => 'auth.login',
+    'uses' => 'AuthUserController@loginUser'
+]);
+
+Route::get('Logout', [
+    'as' => 'auth.logout',
+    'uses' => 'AuthUserController@logoutUser'
+]);
