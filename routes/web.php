@@ -20,35 +20,35 @@ Route::get('', [
     'uses' => 'UserController@showLogin'
 ]);
 
-Route::post('index.php/loginpost', [
+Route::post('/loginpost', [
     'as' => 'auth.login',
     'uses' => 'AuthUserController@loginUser'
 ]);
 
-Route::get('index.php/Logout', [
+Route::get('/Logout', [
     'as' => 'auth.logout',
     'uses' => 'AuthUserController@logoutUser'
 ]);
 
-Route::group(['prefix' => 'index.php', 'middleware' => ['authlogin']], function () {
+Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
     Route::get('', [
         'as' => 'core.dashboard',
         'uses' => 'CoreController@showDashboard'
     ]);
-    Route::get('index.php/dashboard', [
+    Route::get('/dashboard', [
         'as' => 'core.dashboard.inicio',
         'uses' => 'CoreController@showDashboard'
     ]);
 });
 
-Route::get('index.php/registro', [
+Route::get('/registro', [
     'as' => 'user.register',
     'uses' => 'UserController@showRegistration'
 ]);
 
 
 
-Route::get('index.php/login', [
+Route::get('/login', [
     'as' => 'user.login.login',
     'uses' => 'UserController@showLogin'
 ]);
