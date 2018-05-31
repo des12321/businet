@@ -55,7 +55,7 @@
             <!-- user login dropdown start-->
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                    <img alt="" src="images/basicM.png">
+                    <img alt="" src="{{ asset('images/basicM.png') }}">
                     <span class="username font-color1">Johancaruci</span>
                     <b class="caret"></b>
                 </a>
