@@ -15,27 +15,20 @@
     return view('welcome');
 });*/
 
-Route::get('registro', [
-    'as' => 'user.register',
-    'uses' => 'UserController@showRegistration'
-]);
-
 Route::get('', [
     'as' => 'user.login',
     'uses' => 'UserController@showLogin'
 ]);
 
-Route::get('login', [
-    'as' => 'user.login.login',
-    'uses' => 'UserController@showLogin'
+Route::post('loginpost', [
+    'as' => 'auth.login',
+    'uses' => 'AuthUserController@loginUser'
 ]);
 
-Route::group(['prefix' => 'user'], function () {
-	Route::get('fillTopBanner', [
-    'as' => 'user.fillTopBanner',
-    'uses' => 'UserController@fillTopBanner'
-	]);
-});
+Route::get('Logout', [
+    'as' => 'auth.logout',
+    'uses' => 'AuthUserController@logoutUser'
+]);
 
 Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
     Route::get('', [
@@ -48,12 +41,21 @@ Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
     ]);
 });
 
-Route::post('loginpost', [
-    'as' => 'auth.login',
-    'uses' => 'AuthUserController@loginUser'
+Route::get('registro', [
+    'as' => 'user.register',
+    'uses' => 'UserController@showRegistration'
 ]);
 
-Route::get('Logout', [
-    'as' => 'auth.logout',
-    'uses' => 'AuthUserController@logoutUser'
+
+
+Route::get('login', [
+    'as' => 'user.login.login',
+    'uses' => 'UserController@showLogin'
 ]);
+
+Route::group(['prefix' => 'user'], function () {
+	Route::get('fillTopBanner', [
+    'as' => 'user.fillTopBanner',
+    'uses' => 'UserController@fillTopBanner'
+	]);
+});
