@@ -46,8 +46,6 @@ Route::get('/registro', [
     'uses' => 'UserController@showRegistration'
 ]);
 
-
-
 Route::get('/login', [
     'as' => 'user.login.login',
     'uses' => 'UserController@showLogin'
