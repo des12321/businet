@@ -19,9 +19,7 @@ class AuthUserController extends Controller
 
     public function loginUser(Request $request)
     {
-
-       
-        try {
+                try {
              $validator = $request->validate([
             'usernameLogin' => 'required',
             'passwordLogin' => 'required'
@@ -37,8 +35,10 @@ class AuthUserController extends Controller
             $curl = cURL::post($url, $data);
 
             $jsonCurl = json_decode($curl);
-            $idUser = $jsonCurl->ad_user_id;
+
+            
             if (!empty($jsonCurl)) {
+                $idUser = $jsonCurl->ad_user_id;
                 $cookie_new = cookie('businetbybinanceusernamevalueusername', $idUser, 60);
                 $response = new \Illuminate\Http\Response(view('core.lobby'));
                 $response->withCookie($cookie_new);
