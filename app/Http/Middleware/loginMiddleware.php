@@ -18,9 +18,9 @@ class loginMiddleware
         $cookieBank = $request->cookie("businetbybinanceusernamevalueusername");
 
         if (!empty($cookieBank)) {
-            return redirect('/dashboard');
+            return redirect('index.php/dashboard');
         } else {
-            return redirect('/login');
+            return redirect('index.php/login');
         }
         return $next($request);
     }
