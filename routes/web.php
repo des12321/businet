@@ -26,7 +26,7 @@ Route::get('/Logout', [
 ]);
 
 Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
-    Route::get('index.php', [
+    Route::get('', [
         'as' => 'core.dashboard',
         'uses' => 'CoreController@showDashboard'
     ]);
