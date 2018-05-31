@@ -48,7 +48,7 @@
                                 </div>
                                 <div class=" col-md-3">
                                     <div class="center-block">
-                                        <img class="center-block" src="images/basicM.png" width="60px">
+                                        <img class="center-block" src="{{asset('images/basicM.png')}}" width="60px">
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                                     <p class="text-center font-panel1">Referidos</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img class="center-block" src="images/rango1.png" width="50px">
+                                    <img class="center-block" src="{{asset('images/rango1.png')}}" width="50px">
                                 </div>
                                 <div class="col-md-4">
                                     <h3 class="text-center" id="cuadro1-item2"></h3>
@@ -124,7 +124,7 @@
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img class="center-block" src="images/rango2.png" width="50px">
+                                        <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
                                     </div>
                                     <div class="col-md-4">
                                         <h3 class="text-center" id="cuadro2-item2"></h3>
@@ -169,7 +169,7 @@
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
                                     <div class="col-md-4 ">
-                                        <img class="center-block" src="images/rango2.png" width="50px">
+                                        <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
                                     </div>
                                     <div class="col-md-4">
                                         <h3 class="text-center" id="cuadro3-item2"></h3>
@@ -217,7 +217,7 @@
                                             <p class="text-center font-panel1">Referidos</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <img class="center-block" src="images/rango2.png" width="50px">
+                                            <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
                                         </div>
                                         <div class="col-md-4">
                                             <h3 class="text-center">0/1</h3>
@@ -364,7 +364,7 @@
                 <div class=" panel-final market-update-block clr-block-1">
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <img src="images/rango1.png" width="90x">
+                            <img src="{{asset('images/rango1.png')}}" width="90x">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">TRADING</p>
@@ -379,7 +379,7 @@
                 <div class="panel-final  market-update-block clr-block-2">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/businetM.png" width="90px">
+                            <img src="{{asset('images/businetM.png')}}" width="90px">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">UTILIDAD</p>
@@ -394,7 +394,7 @@
                 <div class="panel-final market-update-block clr-block-3">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/tradeM.png" width="90px">
+                            <img src="{{asset('images/tradeM.png')}}" width="90px">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">BONO DE</p>
@@ -409,7 +409,7 @@
                 <div class="panel-final market-update-block clr-block-4">
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <img src="images/seniorM.png" width="90px">
+                            <img src="{{asset('images/seniorM.png')}}" width="90px">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">AVANCE</p>
