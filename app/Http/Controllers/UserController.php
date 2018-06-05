@@ -41,7 +41,7 @@ class UserController extends BaseController
     {
         $response = new \Illuminate\Http\Response();
         $cookieUser = $request->cookie("businetbybinanceusernamevalueusername");
-    DD($cookieUser);
+    
         $url = 'http://18.236.104.133/portal/index.php/welcome/getUserRed/' . $cookieUser;
 
         $curl = cURL::get($url);
