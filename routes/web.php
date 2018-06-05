@@ -33,6 +33,11 @@ Route::group(['prefix' => '', 'middleware' => ['authlogin']], function () {
     Route::get('/dashboard', [
         'as' => 'core.dashboard.inicio',
         'uses' => 'CoreController@showDashboard'
+        
+    ]);
+    Route::get('/prospecto', [
+        'as' => 'core.dashboard.prospecto',
+        'uses' => 'ProspectoController@showProspecto'
     ]);
 });
 

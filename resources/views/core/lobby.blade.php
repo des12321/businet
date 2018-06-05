@@ -4,51 +4,54 @@
 @endsection
 @section ('content')
     <section class="wrapper">
-        <!-- //market-->
         <div class="nav">
             <div class="row">
                 <div id="routeFillTopBanner" data-route="{{ route('user.fillTopBanner') }}"></div>
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="panel-header market-update-block-inicio">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3  ">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="col-md-12">
+                                            <div class="col-md-12 col-lg-12 col-sm-6 col-xs-6 ">
+                                            <div class="center-block textAdvanced">
                                                 <p class="text-center">ADVANCED</p>
                                             </div>
-                                            <div class="col-md-12">
+                                            </div>
+                                            <div class="col-md-12 col-lg-12 col-sm-6 col-xs-6">
+                                             <div class="center-block">
                                                 <p class="text-center advanceValor" ></p>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
                                     <div class="col-md-3">
                                         <h3 class="text-center" style="font-size:50px;">
                                             <i class="fa fa-dollar"></i>
                                         </h3>
                                     </div>
                                     <div class="col-md-9">
-                                        <p style="font-size:12px;" class="text-center">Dolares</p>
-                                        <h4 class="text-center montoDolares"></h4>
+                                        <p style="font-size:12px;" class="">Dolares</p>
+                                        <h4 class=" montoDolares"></h4>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
                                     <div class="col-md-3">
                                         <h3 class="text-center" style="font-size:50px;">
                                             <i class="fa fa-btc"></i>
                                         </h3>
                                     </div>
-                                    <div class="col-md-9">
-                                        <p class="text-center" style="font-size:10px;">BITCOIN</p>
-                                        <h4 class="text-center montoBitCoin"></h4>
+                                    <div class="col-md-9 ">
+                                        <p class="" style="font-size:10px;">BITCOIN</p>
+                                        <h4 class=" montoBitCoin"></h4>
                                     </div>
                                 </div>
-                                <div class=" col-md-3">
+                                <div class=" col-md-3 ">
                                     <div class="center-block">
-                                        <img class="center-block" src="{{asset('images/basicM.png')}}" width="60px">
+                                        <img class="center-block" src="images/basicM.png" width="60px">
                                     </div>
                                 </div>
                             </div>
@@ -64,26 +67,26 @@
                     <div class="panel panel-blue">
                         <div>
                             <div class="header-color" style="background-color: #dfbc60;">
-                                <div class="row center-block">
-                                    <div class="col-md-2 center-block">
+                                <div class="row">
+                                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6">
                                         <span class="fa fa-users text-center" style=""></span>
                                     </div>
-                                    <div class="center-block col-md-10 cuadro-title" >
-                                       
+                                    <div class="col-md-10 col-lg-10 col-sm-6 col-xs-6 center-block cuadro-title" >
+                
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="market-update-block clr-block-5">
                             <div class="row ">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                     <h3 class="text-center" style="font-size:25px" id="cuadro1-item1"></h3>
                                     <p class="text-center font-panel1">Referidos</p>
                                 </div>
-                                <div class="col-md-4">
-                                    <img class="center-block" src="{{asset('images/rango1.png')}}" width="50px">
+                                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                    <img class="center-block" src="images/rango1.png" width="50px">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                     <h3 class="text-center" id="cuadro1-item2"></h3>
                                     <p class="text-center font-panel1">progreso</p>
                                 </div>
@@ -106,27 +109,27 @@
                     <div>
                         <div class="panel panel-blue">
                             <div>
-                                <div class="header-color" style="background-color: #dfbc60;">
-                                    <div class="row center-block">
-                                        <div class="col-md-2">
-                                            <span class="fa fa-users text-center" style=""></span>
-                                        </div>
-                                        <div class="col-md-10  cuadro-title">
-                                               
-                                        </div>
+                            <div class="header-color" style="background-color: #dfbc60;">
+                                    <div class="row">
+                                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6">
+                                        <span class="fa fa-users text-center" style=""></span>
                                     </div>
+                                    <div class="col-md-10 col-lg-10 col-sm-6 col-xs-6 center-block cuadro-title" >
+                
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                             <div class="market-update-block clr-block-5">
                                 <div class="row ">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <h3 class="text-center" style="font-size:25px" id="cuadro2-item1"></h3>
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
-                                    <div class="col-md-4">
-                                        <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                        <img class="center-block" src="images/rango2.png" width="50px">
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <h3 class="text-center" id="cuadro2-item2"></h3>
                                         <p class="text-center font-panel1">progreso</p>
                                     </div>
@@ -152,26 +155,26 @@
                         <div class="panel panel-blue">
                             <div>
                                 <div class="header-color" style="background-color: #dfbc60;">
-                                    <div class="row center-block">
-                                        <div class="col-md-2">
-                                            <span class="fa fa-users text-center" style=""></span>
-                                        </div>
-                                        <div class="col-md-10 cuadro-title">
-                                              
-                                        </div>
+                                    <div class="row">
+                                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6">
+                                        <span class="fa fa-users text-center" style=""></span>
                                     </div>
+                                    <div class="col-md-10 col-lg-10 col-sm-6 col-xs-6 center-block cuadro-title" >
+                
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                             <div class="market-update-block clr-block-5">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <h3 class="text-center" style="font-size:25px" id="cuadro3-item1"></h3>
                                         <p class="text-center font-panel1">Referidos</p>
                                     </div>
-                                    <div class="col-md-4 ">
-                                        <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                        <img class="center-block" src="images/rango2.png" width="50px">
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <h3 class="text-center" id="cuadro3-item2"></h3>
                                         <p class="text-center font-panel1">progreso</p>
                                     </div>
@@ -198,28 +201,28 @@
                         <div class="panel panel-blue">
                             <div>
                                 <div class="header-color" style="background-color: #dfbc60;">
-                                    <div class="row center-block">
-                                        <div class="col-md-2">
-                                            <span class="fa fa-users text-center" style=""></span>
-                                        </div>
-                                        <div class="col-md-10 cuadro-title-final">
-                                                
-                                        </div>
+                                   <div class="row">
+                                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6">
+                                        <span class="fa fa-users text-center" style=""></span>
                                     </div>
+                                    <div class="col-md-10 col-lg-10 col-sm-6 col-xs-6 center-block cuadro-title-final" >
+                
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                             <div class="market-update-block clr-block-5">
                                 <div class="  ">
 
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                             <h3 class="text-center">0</h3>
                                             <p class="text-center font-panel1">Referidos</p>
                                         </div>
-                                        <div class="col-md-4">
-                                            <img class="center-block" src="{{asset('images/rango2.png')}}" width="50px">
+                                        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                            <img class="center-block" src="images/rango2.png" width="50px">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                             <h3 class="text-center">0/1</h3>
                                             <p class="text-center font-panel1">progreso</p>
                                         </div>
@@ -364,7 +367,7 @@
                 <div class=" panel-final market-update-block clr-block-1">
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <img src="{{asset('images/rango1.png')}}" width="90x">
+                            <img src="images/rango1.png" width="90x">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">TRADING</p>
@@ -378,8 +381,8 @@
             <div class=" col-md-3 market-update-gd">
                 <div class="panel-final  market-update-block clr-block-2">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="{{asset('images/businetM.png')}}" width="90px">
+                       <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                            <img src="images/rango1.png" width="90x">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">UTILIDAD</p>
@@ -393,8 +396,8 @@
             <div class="col-md-3 market-update-gd">
                 <div class="panel-final market-update-block clr-block-3">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="{{asset('images/tradeM.png')}}" width="90px">
+                        <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                            <img src="images/rango1.png" width="90x">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">BONO DE</p>
@@ -409,7 +412,7 @@
                 <div class="panel-final market-update-block clr-block-4">
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <img src="{{asset('images/seniorM.png')}}" width="90px">
+                            <img src="images/rango1.png" width="90x">
                         </div>
                         <div class="col-md-6">
                             <p class="size-font-panel text-center" style="font-size: 13px;">AVANCE</p>
@@ -443,9 +446,9 @@
             $('#cuadro1-item2').append('<div style="font-size:25px">'+ response.data.biz_por_der +'%</div>')
             $('#cuadro1-item3').append('<div data-percentage="'+ response.data.biz_por_der +'%" style="width: '+ response.data.biz_por_der +'%;" class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>')
             
-            $('.cuadro-title').append('<span class="text-center" style="font-size:15px;">'+ response.data.biz_rango +'</span>')
+            $('.cuadro-title').append('<span style="font-size:15px;">'+ response.data.biz_rango +'</span>')
 
-            $('.cuadro-title-final').append('<span class="text-center" style="font-size:15px;">'+ response.data.biz_rangoprox +'</span>')
+            $('.cuadro-title-final').append('<span style="font-size:15px;">'+ response.data.biz_rangoprox +'</span>')
 
             $('#cuadro2-item1').append(response.data.biz_soc_cen)
             $('#cuadro2-item2').append('<div style="font-size:25px">'+ response.data.biz_por_cen +'%</div>')

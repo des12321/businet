@@ -3,7 +3,7 @@
     <!--logo start-->
     <div class="brand">
         <a href="index.html" class="logo">
-            <img src="{{asset('images/dashboard-logo2.png')}}" width="170px">
+            <img src="images/dashboard-logo2.png" width="170px">
         </a>
         <div class="sidebar-toggle-box">
             <div class="fa fa-bars"></div>
@@ -18,24 +18,23 @@
             <!-- inbox dropdown start-->
             <li id="header_inbox_bar" class="dropdown">
                 <div class="row">
-                 <div class="col-md-1">
+                 <div class="col-md-1 col-lg-1 col-sm-6 col-xs-6">
                             <h3 class="text-center font-color-header" style="font-size:25px;">
                                 <i class="fa fa-btc"></i>
                             </h3>
                         </div>
-                    <div class="col-md-3">
-                       
-                
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
                             <p class="font-color-header" style="font-size:10px;">TRIMESTRE</p>
                             <h4 class="font-color-header">0.00000580</h4>
-                                        </div>
-                    <div class="col-md-3">
+                    </div>
+                 
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
 
                         <p class="font-color-header" style="font-size:10px;">ULTIMO MES</p>
                         <h4 class="font-color-header">0.00000580</h4>
 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <p class="font-color-header" style="font-size:10px;">ESTA SEMANA</p>
                         <h4 class="font-color-header">0.00000580</h4>
                     </div>
@@ -55,7 +54,7 @@
             <!-- user login dropdown start-->
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                    <img alt="" src="{{ asset('images/basicM.png') }}">
+                    <img alt="" src="images/basicM.png">
                     <span class="username font-color1">Johancaruci</span>
                     <b class="caret"></b>
                 </a>
@@ -67,6 +66,7 @@
                 </ul>
             </li>
             <!-- user login dropdown end -->
+
         </ul>
         <!--search & user info end-->
     </div>
