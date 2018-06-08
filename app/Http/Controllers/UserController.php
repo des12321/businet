@@ -45,12 +45,12 @@ class UserController extends BaseController
         $url = 'http://18.236.104.133/portal/index.php/welcome/getUserRed/' . $cookieUser;
         
         $curl = cURL::get($url);
-  
+        DD($curl);
         $curlJson = json_decode($curl);
         $data= [
             'data' => $curlJson
         ];
-        DD($data);
+        
        return response()->json($data, 200);
     }
 }
