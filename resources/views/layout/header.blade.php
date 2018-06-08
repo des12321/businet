@@ -3,7 +3,7 @@
     <!--logo start-->
     <div class="brand">
         <a href="index.html" class="logo">
-            <img src="images/dashboard-logo2.png" width="170px">
+            <img src="{{ asset('images/dashboard-logo2.png')}}" width="170px">
         </a>
         <div class="sidebar-toggle-box">
             <div class="fa fa-bars"></div>
